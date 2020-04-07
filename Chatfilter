@@ -121,3 +121,7 @@
 (?i)Who.*?just.*?won
 (?i)trade.*?accepted.*?with.*?for
 (?i)congratulations.*?with a roll of
+(?i)(.*)Want to swap your RS3|07|D.M.M gp(.*)
+(?i)^.*on Youtube (to claim|for)(.*)
+(?i)(.*)cheapest price for Runescape gold(.*)
+(?i)^.*buy Runescape Gold.*$
