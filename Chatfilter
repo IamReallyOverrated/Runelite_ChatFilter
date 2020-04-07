@@ -125,3 +125,7 @@
 (?i)^.*on Youtube (to claim|for)(.*)
 (?i)(.*)cheapest price for Runescape gold(.*)
 (?i)^.*buy Runescape Gold.*$
+(?i)(.*) (cashed in|cashed)(.*)
+(.*)(the roll was|rolled) [0-9]{1,4}(.*)
+(?i)Trading (with)?.*
+(?i)Was paid.*
