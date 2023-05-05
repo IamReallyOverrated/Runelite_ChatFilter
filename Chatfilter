@@ -259,8 +259,9 @@ known lurers:.*
 .+are hacked accounts that .*
 .* has cashed in [0-9]+(k|m|b) @
 .* rolled.*and lost @
+(?i)^(selling).*jokes.*\dk
 
-C.0M
+C0M
 Ï
 ï
 ë
