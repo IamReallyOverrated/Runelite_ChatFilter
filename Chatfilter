@@ -8,7 +8,6 @@
 (?i)giving \d{2}% of what you show
 (?i)(2|two|too?) trade (doubl|tripl)ing
 (?i)(accepting|taking) (all )?donations?
-(?i)(can )?(any\s?(1|one) )?(doubl|tripl)(e( my)?|ing) ((g(\sp|old)|money|items?).*?((\d+\s?[gkm] left|or (g(\sp|old)|money|items?))|up\s?to\s?\d+\s?[gkm])|((till )?\d+\s?[gkm]|g(\sp|old)|money|items?))
 (?i)(can )?any\s?(1|one) (willing to |trade )?(doubl|tripl)(e|ing)
 (?i)(doubl|tripl)ing( last call)?.*?(2|two|too?)\s?trades?
 (?i)any\s(1|one) (spare |help with )((a )?(g(\sp|old)|money|items?|bond)|some junk)
@@ -35,7 +34,7 @@
 (?i)(best|come play).*?rsps
 (?i)c\s?[o0]\s?m.*?bet g(\s?p|old)
 (?i)(exchange|swap.*?) ((rs3.*?|eoc.*?)|07|osrs|os) (g(\sp|old)|money|items?)
-(?i)(join.*?)?most trusted.*?(g\s?p |gold )?swap (cc|clan chat)
+(?i)(join.*?)most trusted.*?(g\s?p |gold )?swap (cc|clan chat)
 (?i)(search on )?(twitch(\/tv)?|youtube)(.*?win \d+\s?[gkm]|.*?give\s?aways?)
 (?i)[0-9\.](.*?\/.*?)?u\ss\sd\s?\/\s?m
 (?i)b\s*e\s*s\s*t.*?legit.*?s\s*i\s*t\s*e
@@ -60,43 +59,42 @@
 (?i)\(\d+\s?[gkm] - \d+\s?[gkm]\).*?[\[\({]?\d{2}:\d{2}:\d{2}[\]\)}]?
 (?i)\(\d+\s?[gkm] - \d+\s?[gkm]\).*?trade to play.*?[\[\({]\d{2}:\d{2}:\d{2}[\]\)}]
 (?i)[\[\({].*?[\]\)}] - [\[\({]\d+\s?[gkm][\]\)}] bet
-(?i)[\[\({]\d+\s?[gkm] min[\]\)}] - [\[\({]\d+\s?[gkm] max[\]\)}]
-(?i)[\[\({]\d+\s?[gkm][\]\)}] paid
-(?i)[\[\({]automated[\]\)}].*?x\d+.*?[\[\({]\d+\s?[gkm]-\d+\s?[gkm]
-(?i)[\[\({]lose[\]\)}] rolled.*?unlucky
-(?i)[\[\({]win[\]\)}] rolled [\[\({]\d+[\]\)}]
-(?i)1-100 [\[\({]over \d+[\]\)}].*? win double
+(?i)[\[\({]\d+\s?[gkm] min[\]\)}] - [\[\({]\d+\s?[gkm]
+(?i)\[\({]\d+\s?[gkm] min[\]\)}] - \[\({]\d+\s?[gkm] max[\]\)}
+(?i)\[\({]\d+\s?[gkm][\]\)}] paid
+(?i)\[\({]automated[\]\)}].*?x\d+.*?\[\({]\d+\s?[gkm]-\d+\s?[gkm]
+(?i)\[\({]lose[\]\)}] rolled.*?unlucky
+(?i)\[\({]win[\]\)}] rolled \[\({]\d+[\]\)}
+(?i)1-100 \[\({]over \d+[\]\)}].*? win double
 (?i)dicing.*?(dice|flower) games?
 (?i)\d{2}\s?-\s?100.*?\d+\s?[gkm] min
 (?i)original host.*?\d+\s?[gkm] min
 (?i)\d{2}x\d.*?\d+\s?[gkm] min
 (?i)drop parties.*?give\s?aways?.*?dice games?
 (?i)goodie bag.*?choose a number
-(?i)has (been paid.*?\d+\s?[gkm]|(lost.*?|won.*?[\[\({]\d+\s?[gkm].*?)with a roll)
+(?i)has (been paid.*?\d+\s?[gkm]|(lost.*?|won.*?\[\({]\d+\s?[gkm].*?)with a roll)
 (?i)has (lost|won) \d+\s?[gkm] with a roll of
 (?i)has rec(ei|ie)ved .*? win.*? \d+\s?[gkm]
-(?i)has rolled an? [\[\({]\s?\d+\s?[\]\)}] and (has )?(lost|won)( the pot of [\[\({]\d+(\.\d+)?\s?[gkm]|.*?[\[\({]\d{2}:\d{2}:\d{2}[\]\)}])
-(?i)[\[\({]\d+\s?[gkm](\s?min)?[\]\)}].*?trade to play
-(?i)has traded [\[\({]\d+(\.\d+)?\s?[gkm].*?[\[\({]\d{2}:\d{2}:\d{2}[\]\)}]
+(?i)\[\({]\d+\s?[gkm](\s?min)?[\]\)}].*?trade to play
+(?i)has traded \[\({]\d+(\.\d+)?\s?[gkm].*?\[\({]\d{2}:\d{2}:\d{2}[\]\)}
 (?i)hosting.*?\d+\s?[gkm] min
 (?i)(huge|massive) payouts?.*?\(\d+\s?[gkm] to \d+\s?[gkm]
 (?i)next \d+.*?win \d+\s?[gkm]
 (?i)original rng is back.*?\(\d+\s?[gkm] to \d+\s?[gkm]
 (?i)^want to bet.*? (gold|gp|coins|money)
 (?i)over 5\d .*?\d+\s?[gkm] min.*?(legit|quick plays?)
-(?i)random 1-100 .*?win double .*?[\[\({]\d+\s?[gkm]-\d+\s?[gkm][\]\)}]
-(?i)rolled [\[\({]\s?\d+\s?[\]\)}].*?[\[\({]\s?(lose|win)\s?[\]\)}]
+(?i)random 1-100 .*?win double .*?\[\({]\d+\s?[gkm]-\d+\s?[gkm][\]\)}
+(?i)rolled \[\({]\s?\d+\s?[\]\)}].*?\[\({]\s?(lose|win)\s?[\]\)}
 (?i)time limit reached, declining
 (?i)trade accepted for .*?amount
-(?i)you only need to trade.*?current queue.*?[\[\({]\d+[\]\)}]
-(?i)won [\[\({]\s?\d+\s?[gkm]\s?[\]\)}] by rolling [\[\({]\s?\d+\s?[\]\)}]
-(?i) lost by rolling [\[\({]\s?\d+\s?[\]\)}]
-(?i)big payouts.*?[\[\({]\s?\d+\s?[gkm]\s?-\s?\d+\s?[gkm]\s?[\]\)}]
-(?i)big win.*?[\[\({]?\s?\d+\s?[gkm]\s?-\s?\d+\s?[gkm]\s?[\]\)}]? [\[\({]\s?\d+\s?\+\s?[\]\)}]
-(?i)^trade accepted.*?[\[\({]\s?\d+\s?[gkm]\s?[\]\)}]
-(?i)lost by rolling [\[\({]\s?\d+\s?[\]\)}]
+(?i)you only need to trade.*?current queue.*?\[\({]\d+[\]\)}
+(?i)won \[\({]\s?\d+\s?[gkm]\s?[\]\)}] by rolling [\[\({]\s?\d+\s?[\]\)}]
+(?i) lost by rolling \[\({]\s?\d+\s?[\]\)}
+(?i)big payouts.*?\[\({]\s?\d+\s?[gkm]\s?-\s?\d+\s?[gkm]\s?[\]\)}
+(?i)big win.*?\[\({]?\s?\d+\s?[gkm]\s?-\s?\d+\s?[gkm]\s?[\]\)}]? \[\({]\s?\d+\s?\+\s?[\]\)}
+(?i)^trade accepted.*?\[\({]\s?\d+\s?[gkm]\s?[\]\)}
+(?i)lost by rolling \[\({]\s?\d+\s?[\]\)}
 (?i)\d+\s?[gkm] minimum.*?\d{2}:\d{2}:\d{2}
-(?i)[\[\({]\s?\d+\s?[gkm]\s?min\s?[\]\)}]\s?[\[\({]\s?roll\s?\d\s?\d\s?\+\s?[\]\)}]
 (?i)0\s?-\s?100.*?\d+\s?[gkm]\s?-\s?\d+\s?[gkm].*?paid out
 (?i)join runescape'?s most trusted
 (?i)[s ][a ][l ][e ]\s?g[o|0][l|1]d\s?&\s?a[c|\[][c|\[]
@@ -129,3 +127,120 @@
 (.*)(the roll was|rolled) [0-9]{1,4}(.*)
 (?i)Trading (with)?.*
 (?i)Was paid.*
+(?i)Lurers to ignore
+(?i)The next 25 players
+(?i)Do not attempt to antiscam the sceptre
+(?i)Barb\.Outpost\/Shanty\.Pass\/Rogues\.Den
+(?i)Sceptre lurers use glitches to push
+(?i)Massing Cox\/Corp\/Gwd\/Events
+(?i)Tired of skilling & questing\?
+(?i)Person who shows me most wealth
+(?i)Uidhosts\.net
+(?i)Bet High, Win Big!
+(?i)erified Host
+(?i)Bet Responsibly
+(?i)I just tried to say something very silly
+(?i)Huge Payouts
+(?i)\(100k Min\)
+(?i)Massing Cox\/Corp\/GWD
+(?i)Search youtube:-
+(?i)Hide your name
+(?i)has cashed in
+(?i)has lost slots
+(?i)lost with a roll of
+(?i)discord\.gg\/uid
+(?i)WK Swap
+(?i)Sceptre lurers use a fake antiscam
+(?i)is a lurer using glitches
+(?i)Quitting! Giving
+(?i)\/\[Mass FFA\/\]
+(?i)Arcus Go\*ld
+(?i)Arcus Go ld
+(?i)RC Swap
+(?i)bournos
+(?i)100m drop party
+(?i)caw cc
+(?i)let me brighten your day with a funny joke
+(?i)funny jokes for only 50k
+(?i)buy a joke for 50k
+(?i)selling jokes for only 50k
+(?i)Who shows biggest bank wins
+(?i)you can never antiscam\.*
+(?i)when you hop to a pvp\.*
+(?i)doubling (money|items)
+(?i)quitting,.* search youtube\.*
+(?i)\.*(Buying|sell me your) all (valuable|bank)\.*
+(?i)\.*Slots \| vegas\.*
+(?i)\.*\| bond [0-9]+
+(?i)\.*\| G-[0-9]+
+(?i)\.*\| D[0-9]+
+(?i)Vegas
+(?i)anyone here have t bow\?.*
+(?i)first who shows
+(?i)show (me )?your bank
+(?i)show bank for
+(?i)(buying|buy)\.*
+(?i)"ly rs" cc
+(?i)caw hosts
+(?i)mehunder cc
+(?i)nora swap
+(?i)lisa swap
+(?i)ray swap
+(?i)swap cc
+(?i)luna swap
+(?i)trade me for [0-9]+(b|m)
+(?i)\| Veg [a-z0-9]+
+(?i)\| Host [0-9]+
+(?i)[0-9]+ dice games available
+(?i)(cashed in|has been paid)\:.*
+(?i)has lost slots
+(?i)(win|lost) with (a roll|rolls) of
+(?i)(won|lost) .*with a roll of
+(?i).+(lost slots|won).*(diamond|shoe|pear|orange|cherry|apple|banana)
+(?i)\[.+\].*
+(?i)raffles .* giveaway
+(?i)spending .* no junk please
+(?i)spending max cash\.*
+someone.*i will pay [0-9]+m
+who ever shows me [0-9]+m
+show (inv|inventory|invetory) for .*
+2b for\?
+offer for 2b\?
+Lurers to ignore: .*
+known lurers:.*
+.+are hacked accounts that .*
+.* has cashed in [0-9]+(k|m|b) @
+.* rolled.*and lost @
+(?i)spending max cash\.*
+someone.*i will pay [0-9]+m
+who ever shows me [0-9]+m
+show (inv|inventory|invetory) for .*
+C\.0M
+[Ïï]
+ë
+å
+â
+[àáäÁä]
+[ÓóÕðÔôõÖöÒò]
+Jackp0t
+[àèìòùÀÈÌÒÙ]
+[áéíóúýÁÉÍÓÚÝ]
+[âêîôûÂÊÎÔÛ]
+[ãñõÃÑÕ]
+[äëïöüÿÄËÏÖÜŸ]
+å
+Å
+æ
+Æ
+œ
+Œ
+ç
+Ç
+ð
+Ð
+ø
+Ø
+ß
+'C
+C0M
+~~~
