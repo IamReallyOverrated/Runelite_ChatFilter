@@ -129,6 +129,7 @@
 (.*)(the roll was|rolled) [0-9]{1,4}(.*)
 (?i)Trading (with)?.*
 (?i)Was paid.*
+(?i)First to give me \d[m,k,gp] (.*) regret it
 
 Lurers to ignore
 
@@ -245,13 +246,6 @@ spending max cash.*
 someone.*i will pay [0-9]+m
 who ever shows me [0-9]+m
 show (inv|inventory|invetory) for .*
-!p
-!w
-!d
-!c
-!h
-!s
-!f
 2b for\?
 offer for 2b\?
 Lurers to ignore: .*
@@ -261,105 +255,35 @@ known lurers:.*
 .* rolled.*and lost @
 (?i)^(selling).*jokes.*\dk
 
-C0M
-Ï
-ï
+C\.0M
+[Ïï]
 ë
 å
 â
-à
-á
-ä
-Á
-ä
-Ó 
-ó
-Õ
-ð
-Ô 
-ô
-õ
-Ö 
-ö	
-Ò 
-ò
+[àáäÁä]
+[ÓóÕðÔôõÖöÒò]
 Jackp0t
-à
-è
-ì
-ò
-ù
-À
-È
-Ì
-Ò
-Ù
-
-á
-é
-í
-ó
-ú
-ý
-Á
-É
-Í
-Ó
-Ú
-Ý
-
-â
-ê
-î
-ô
-û
-Â
-Ê
-Î
-Ô
-Û
-
-ã
-ñ
-õ
-Ã
-Ñ
-Õ
-
-ä
-ë
-ï
-ö
-ü
-ÿ
-Ä
-Ë
-Ï
-Ö
-Ü
-Ÿ
-
+[àèìòùÀÈÌÒÙ]
+[áéíóúýÁÉÍÓÚÝ]
+[âêîôûÂÊÎÔÛ]
+[ãñõÃÑÕ]
+[äëïöüÿÄËÏÖÜŸ]
 å
 Å
-
 æ
 Æ
-
 œ
 Œ
-
 ç
 Ç
-
 ð
-
 Ð
-
 ø
 Ø
-
 ß
 'C
 C0M
+C<>M
+C <> M
 
 ~~~
