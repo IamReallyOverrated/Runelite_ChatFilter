@@ -105,6 +105,9 @@ congratulations.*?with a roll of
 (?i)giveaway.*?search (on )?y[o0]utube
 (?i)accounts stocked \d+\s?[gkm].*?giveaways
 (?i)rewarding.*?search (on )?y[o0]utube
+(?i)partypetegp
+(?i)infernocape.com
+(?i)'C0M
 
 ?# Miscellaneous
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
