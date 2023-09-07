@@ -42,9 +42,6 @@ Roll.*?over*.?55
 Who.*?just.*?won
 trade.*?accepted.*?with.*?for
 congratulations.*?with a roll of
-\bsomeone\strade\sme\s\d+[mk]?\b
-\blooking\sfor\sgenuine\s\w+\b
-
 
 ?# Doubling money and scams
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
@@ -64,8 +61,6 @@ congratulations.*?with a roll of
 (?i)se[l1][l1]i?n?g?\s?\s?g\s?[o0]\s?[l1]\s?d
 (?i)se11 g01d & a\(\(.*?1oook\s?\/\s?o\.\d.?u.?s.?d
 (?i)show.*?wealth
-\b(?:buying|buy)\s(?:all\s)?(?:good\s)?(?:\w+\s)?(?:items?|set)?(?:\s?\+\s?\w+\s?\+\s?\w+)?(?:\s\d+(\.\d+[bmk]?)?)?(?:\s?and\s?\w+\s+\d+(\.\d+[bmk]?)?)?(?:\s\d+% more than ge value!)?\b
-
 
 ?# Giveaways and events
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
@@ -85,7 +80,6 @@ congratulations.*?with a roll of
 (?i)j?o?i?n?.*?\d+\s?(\s?[gkm]|million) give\s?aways?
 
 ?# Promotions and advertisements
-(?i)Search on youtube
 (?i)(best|come play).*?rsps
 (?i)(exchange|swap.*?) ((rs3.*?|eoc.*?)|07|osrs|os) (g(\s?p|old)|money|items?)
 (?i)(join.*?)?most trusted.*?(g\s?p |gold )?swap (cc|clan chat)
@@ -115,7 +109,6 @@ congratulations.*?with a roll of
 (?i)infernocape.com
 (?i)'C0M
 (?i)ms99gp
-
 
 ?# Miscellaneous
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
