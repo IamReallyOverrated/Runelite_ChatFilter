@@ -62,6 +62,7 @@ congratulations.*?with a roll of
 (?i)se[l1][l1]i?n?g?\s?\s?g\s?[o0]\s?[l1]\s?d
 (?i)se11 g01d & a\(\(.*?1oook\s?\/\s?o\.\d.?u.?s.?d
 (?i)show.*?wealth
+(?i)(buy|buying) tbow \d*[mb]
 
 ?# Giveaways and events
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
@@ -110,6 +111,7 @@ congratulations.*?with a roll of
 (?i)infernocape.com
 (?i)'C0M
 (?i)ms99gp
+(?i)Zo55gp
 
 ?# Miscellaneous
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
