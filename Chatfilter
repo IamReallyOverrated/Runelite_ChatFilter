@@ -42,6 +42,7 @@ Roll.*?over*.?55
 Who.*?just.*?won
 trade.*?accepted.*?with.*?for
 congratulations.*?with a roll of
+^\d*\s|
 
 ?# Doubling money and scams
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
