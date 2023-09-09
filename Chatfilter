@@ -42,7 +42,7 @@ Roll.*?over*.?55
 Who.*?just.*?won
 trade.*?accepted.*?with.*?for
 congratulations.*?with a roll of
-^\d*\s|
+^\d*\s\|
 
 ?# Doubling money and scams
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
@@ -79,11 +79,6 @@ congratulations.*?with a roll of
 (?i)given away every hour
 (?i)huge give\s?aways?.*?(twitch\/?t?v?|youtube)\s?\/
 (?i)j?o?i?n?.*?\d+\s?(\s?[gkm]|million) give\s?aways?
-\bbuy\s\w+(\s\w+)?\s\d+(\.\d+)?[kmb]\b
-\bbuying\s\w+(\s\w+)?\s\d+(\.\d+)?[kmb]\b
-
-
-
 
 ?# Promotions and advertisements
 (?i)(best|come play).*?rsps
