@@ -24,25 +24,28 @@ If you'd like to submit an addition to the list please follow these guidelines.
 
     Label: Apply the "Regex Addition" label from the right-hand side labels section to categorize your issue properly.
 
-Submission Example:
 
-    Title : 
+
+# Submission Example:
+
+### Title: 
     Remove 'Doubling Money' Messages.
 
-    Description:
-        Removes doubling money scam at ge.
-        
-        Pattern:
-        ^(?!.*doubling\s+money).*$
+### Description:
+
+    Removes doubling money scam at ge.
     
-        Test case 1:
-        Input: "Doubling money!! PM me!"
-        Output: Match
-        
-        Test case 2:
-        Input: "I have to figure out how to double my money"
-        Output: No Match
+    Pattern:
+    ^(?!.*doubling\s+money).*$
+
+    Test case 1:
+    Input: "Doubling money!! PM me!"
+    Output: Match
     
-    Label: 
+    Test case 2:
+    Input: "I have to figure out how to double my money"
+    Output: No Match
+    
+### Label: 
     Regex Addition
 
