@@ -30,18 +30,18 @@ Submission Example:
     Remove 'Doubling Money' Messages.
 
     Description:
-    Removes doubling money scam at ge.
+        Removes doubling money scam at ge.
+        
+        Pattern:
+        ^(?!.*doubling\s+money).*$
     
-    Pattern:
-    ^(?!.*doubling\s+money).*$
-    
-    Test case 1:
-    Input: "Doubling money!! PM me!"
-    Output: Match
-    
-    Test case 2:
-    Input: "I have to figure out how to double my money"
-    Output: No Match
+        Test case 1:
+        Input: "Doubling money!! PM me!"
+        Output: Match
+        
+        Test case 2:
+        Input: "I have to figure out how to double my money"
+        Output: No Match
     
     Label: 
     Regex Addition
