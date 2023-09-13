@@ -62,7 +62,7 @@ congratulations.*?with a roll of
 (?i)se[l1][l1]i?n?g?\s?\s?g\s?[o0]\s?[l1]\s?d
 (?i)se11 g01d & a\(\(.*?1oook\s?\/\s?o\.\d.?u.?s.?d
 (?i)show.*?wealth
-(?i)(buy|buying) tbow \d*[mb]
+(?i)(buy|buying) (tbow|\wtumeken) \d(*[mb]|)
 
 ?# Giveaways and events
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
@@ -107,6 +107,9 @@ congratulations.*?with a roll of
 (?i)giveaway.*?search (on )?y[o0]utube
 (?i)accounts stocked \d+\s?[gkm].*?giveaways
 (?i)rewarding.*?search (on )?y[o0]utube
+(?i)search\syoutube(?:)
+(?i)first\s\d*\splayers
+
 (?i)partypetegp
 (?i)infernocape.com
 (?i)'C0M
