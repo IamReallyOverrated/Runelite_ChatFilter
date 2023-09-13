@@ -113,6 +113,7 @@ congratulations.*?with a roll of
 (?i)ms99gp
 (?i)Zo55gp
 (?i)rscoins
+^Disc\*rd,g$
 
 ?# Miscellaneous
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
