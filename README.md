@@ -9,7 +9,7 @@ For the best results put Filter Type on Remove messages, so you don't see them a
 ## Help everyone reduce spam
 The regex list needs constant updates as bots change their spam. You can help by submitting additions to the regex list.
 
-If you'd like to submit an addition just follow these steps.
+If you'd like to submit an addition follow these steps.
 
     1. Create a New Issue: Click on the "Issues" tab at the top of the repository and then click the green "New Issue" button.
 
