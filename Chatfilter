@@ -43,6 +43,7 @@ Who.*?just.*?won
 trade.*?accepted.*?with.*?for
 congratulations.*?with a roll of
 ^\d*\s\|
+(?i)coin is up
 
 ?# Doubling money and scams
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
@@ -116,6 +117,7 @@ congratulations.*?with a roll of
 (?i)ms99gp
 (?i)Zo55gp
 (?i)rscoins
+^Disc\*rd,g$
 
 ?# Miscellaneous
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
