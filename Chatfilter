@@ -8,7 +8,6 @@
 (?i)can someone help a noob
 (?i)could use help with a bond
 (?i)i just got (scammed|hacked)
-(?i)i'?m a noob,?\s?can someone help
 (?i)need free (g(\sp|old)|money|items?)
 (?i)please need \d+\s?[gkm]( i'?m new)?
 (?i)taking unwanted junk
