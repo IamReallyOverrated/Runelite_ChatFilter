@@ -1,16 +1,14 @@
 ?# Donations and begging
 (?i)^(can|need) someone (to )?donate
-(?i)^i need (gp|gold|money|items?) (please|pl(s|z))
-(?i)^(taking|accepting)( all)? junk$
-(?i)(accepting|taking) (all )?donations?
+(?i)^i need (gp|gold|money|items?) ?(please|pl(s|z))
+(?i)(?<!not )\b(accepting|taking)\b( all\b| unwanted\b)?\b(donations?\b|junk\b)
 (?i)any\s(1|one) (spare |help with )((a )?(g(\sp|old)|money|items?|bond)|some junk)
 (?i)can anyone.*?donate me (g(\sp|old)|money|items?)
-(?i)can someone help a noob
-(?i)could use help with a bond
-(?i)i just got (scammed|hacked)
+(?i)?(can|could|will|would) (someone|anyone|any1) (help|assist) (a )?(noob|newbie|beginner)
+(?i)(could|can|might) use (some )?help with (a )?bond
+(?i)i just got (scammed|hacked) (and lost |please help |can anyone help ).*
 (?i)need free (g(\sp|old)|money|items?)
 (?i)please need \d+\s?[gkm]( i'?m new)?
-(?i)taking unwanted junk
 
 ?# Gambling and begging
 (?i)want to bet.*? (gold|gp|coins|money)
