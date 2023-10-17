@@ -2,7 +2,7 @@
 (?i)^(can|need) someone (to )?donate
 (?i)^i need (gp|gold|money|items?) ?(please|pl(s|z))
 (?i)(?<!not )\b(accepting|taking)\b( all\b| unwanted\b)?\b(donations?\b|junk\b)
-(?i)any\s?(1|one) (spare |help |give|trade |help out)(me)?(with )?(some )?(spare )?((a )?.*?(g(\s?p|old)|money|mil|items?|bond)|junk)
+(?i)(any|some)\s?(1|one).*?(spare |help |give |trade ).*?((g(\s?p|old)|money|coins|gear|mil|items?|bond)|junk)
 (?i)can anyone.*?donate me (g(\sp|old)|money|items?)
 (?i)?(can|could|will|would) (someone|anyone|any1) (help|assist) (a )?(noob|newbie|beginner)
 (?i)(could|can|might) use (some )?help with (a )?bond
