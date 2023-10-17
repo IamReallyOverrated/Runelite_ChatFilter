@@ -1,16 +1,14 @@
 ?# Donations and begging
 (?i)^(can|need) someone (to )?donate
-(?i)^i need (gp|gold|money|items?) (please|pl(s|z))
-(?i)^(taking|accepting)( all)? junk$
-(?i)(accepting|taking) (all )?donations?
+(?i)^i need (gp|gold|money|items?) ?(please|pl(s|z))
+(?i)(?<!not )\b(accepting|taking)\b( all\b| unwanted\b)?\b(donations?\b|junk\b)
 (?i)any\s(1|one) (spare |help with )((a )?(g(\sp|old)|money|items?|bond)|some junk)
 (?i)can anyone.*?donate me (g(\sp|old)|money|items?)
-(?i)can someone help a noob
-(?i)could use help with a bond
-(?i)i just got (scammed|hacked)
+(?i)?(can|could|will|would) (someone|anyone|any1) (help|assist) (a )?(noob|newbie|beginner)
+(?i)(could|can|might) use (some )?help with (a )?bond
+(?i)i just got (scammed|hacked) (and lost |please help |can anyone help ).*
 (?i)need free (g(\sp|old)|money|items?)
 (?i)please need \d+\s?[gkm]( i'?m new)?
-(?i)taking unwanted junk
 
 ?# Gambling and begging
 (?i)want to bet.*? (gold|gp|coins|money)
@@ -43,6 +41,7 @@ trade.*?accepted.*?with.*?for
 congratulations.*?with a roll of
 ^\d*\s\|
 (?i)coin is up
+/(?i)(double )?(dice|dicing) (\bday \b)?(\d+[gkm]-\d+[gkm])\b/gm
 
 ?# Doubling money and scams
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
@@ -62,7 +61,7 @@ congratulations.*?with a roll of
 (?i)se[l1][l1]i?n?g?\s?\s?g\s?[o0]\s?[l1]\s?d
 (?i)se11 g01d & a\(\(.*?1oook\s?\/\s?o\.\d.?u.?s.?d
 (?i)show.*?wealth
-(?i)(buy|buying) tbow \d*[mb]
+(?i)(buy|buying) (tbow|\wtumeken) \d(*[mb]|)
 
 ?# Giveaways and events
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
@@ -107,13 +106,19 @@ congratulations.*?with a roll of
 (?i)giveaway.*?search (on )?y[o0]utube
 (?i)accounts stocked \d+\s?[gkm].*?giveaways
 (?i)rewarding.*?search (on )?y[o0]utube
+(?i)search\syoutube(?:)
+(?i)first\s\d*\splayers
+
 (?i)partypetegp
 (?i)infernocape.com
 (?i)'C0M
 (?i)ms99gp
 (?i)Zo55gp
 (?i)rscoins
-^Disc\*rd,g$
+(?i)runemarket
+(?i)rúnestore
+(?i)((c.*?a.*?n.*?a.*?d.*?a).*?o.*?s.*?r.*?s.*?g.*?o.*?l.*?d)|(o.*?s.*?r.*?s.*?g.*?o.*?l.*?d.*?c.*?o.*?m)
+(?i)d.sc.rd.gg.+(services|accounts|gold|secure|infern.+)
 
 ?# Miscellaneous
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
@@ -138,3 +143,4 @@ congratulations.*?with a roll of
 ß
 «
 »
+°
