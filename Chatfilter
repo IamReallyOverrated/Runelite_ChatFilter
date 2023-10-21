@@ -109,6 +109,7 @@ congratulations.*?with a roll of
 (?i)rewarding.*?search (on )?y[o0]utube
 (?i)search\syoutube(?:)
 (?i)first\s\d*\splayers
+(?i)(.*d.*?i.*?s.*?c.*?o.*?r.*?d.*?g.*?g.*?)(services|accounts|gold|secure|infern.+)
 
 (?# Specific adverts)
 (?i)partypetegp
@@ -120,7 +121,6 @@ congratulations.*?with a roll of
 (?i)runemarket
 (?i)rúnestore
 (?i)((c.*?a.*?n.*?a.*?d.*?a).*?o.*?s.*?r.*?s.*?g.*?o.*?l.*?d)|(o.*?s.*?r.*?s.*?g.*?o.*?l.*?d.*?c.*?o.*?m)
-(?i)(.*d.*?i.*?s.*?c.*?o.*?r.*?d.*?g.*?g.*?)(services|accounts|gold|secure|infern.+)
 (?i)rsfast
 
 (?# Miscellaneous)
@@ -136,14 +136,4 @@ congratulations.*?with a roll of
 [âêîôûÂÊÎÔÛ]
 [ãñõÃÑØøÕ]
 [äëïöüÿÄËÏÖÜŸ]
-Ð
-æ
-Æ
-œ
-Œ
-ç
-Ç
-ß
-«
-»
-°
+[ÐæÆœŒçÇß«»°]
