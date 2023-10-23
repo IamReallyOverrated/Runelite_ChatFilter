@@ -42,6 +42,8 @@ congratulations.*?with a roll of
 ^\d*\s\|
 (?i)coin is up
 (?i)(double )?(dice|dicing) (\bday \b)?(\d+[gkm]-\d+[gkm])\b[gkm]
+(?i)(?=.*games)(?=(.*\{\}.*?){2,})
+(?i)(?=.*(play|verified|(\d+[gkmb]-\d+[gkmb])|\d[gkmb]+\smin))(?=(.*\<\>.*?){2,})
 
 (?# Doubling money and scams)
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
@@ -110,6 +112,8 @@ congratulations.*?with a roll of
 (?i)search\syoutube(?:)
 (?i)first\s\d*\splayers
 (?i)(.*d.*?i.*?s.*?c.*?o.*?r.*?d.*?g.*?g.*?)(services|accounts|gold|secure|infern.+)
+(?i).*?cc:\{.*?\}
+(?i).*?ttv\/.*?
 
 (?# Specific adverts)
 (?i)partypetegp
