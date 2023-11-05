@@ -48,6 +48,7 @@ congratulations.*?with a roll of
 (?i)(?=.*(play|verified|(\d+[gkmb]-\d+[gkmb])|\d[gkmb]+\smin))(?=(.*\<\>.*?){2,})
 (?i).*?trade.*?to.*?play.*?(\d*?[kmb].*?\d*?[kmb])
 (?i).*?play.*?responsibly.*?(\d*?[kmb].*?\d*?[kmb])
+(?i).*?play.*?more.*?(\d*?[kmb].*?\d*?[kmb])
 
 (?# Doubling money and scams)
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
