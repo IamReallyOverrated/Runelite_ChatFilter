@@ -26,6 +26,8 @@ original host.*?\d+\s?[gkm] min
 \d{2}x\d.*?\d+\s?[gkm] min
 dicing.*?(dice|flower) games?
 has (been paid.*?\d+\s?[gkm]|(lost.*?|won.*?[\[\({]\d+\s?[gkm].*?)with a roll)
+(?i)^.* has cashed in:
+(?i)^.* has been paid:.*
 has (lost|won) \d+\s?[gkm] with a roll of
 hosting.*?\d+\s?[gkm] min
 (huge|massive) payouts?.*?\(\d+\s?[gkm] to \d+\s?[gkm]
@@ -42,6 +44,10 @@ congratulations.*?with a roll of
 ^\d*\s\|
 (?i)coin is up
 (?i)(double )?(dice|dicing) (\bday \b)?(\d+[gkm]-\d+[gkm])\b[gkm]
+(?i)(?=.*games)(?=(.*\{\}.*?){2,})
+(?i)(?=.*(play|verified|(\d+[gkmb]-\d+[gkmb])|\d[gkmb]+\smin))(?=(.*\<\>.*?){2,})
+(?i).*?trade.*?to.*?play.*?(\d*?[kmb].*?\d*?[kmb])
+(?i).*?play.*?responsibly.*?(\d*?[kmb].*?\d*?[kmb])
 
 (?# Doubling money and scams)
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
@@ -105,11 +111,16 @@ congratulations.*?with a roll of
 (?i)commission staking.*?discord
 (?i)staking.*?blackjack.*?dicing.*?discord
 (?i)giveaway.*?search (on )?y[o0]utube
+(?i)^(?=.*youtube)\d*[kmb].*?giveaway
 (?i)accounts stocked \d+\s?[gkm].*?giveaways
 (?i)rewarding.*?search (on )?y[o0]utube
 (?i)search\syoutube(?:)
 (?i)first\s\d*\splayers
 (?i)(.*d.*?i.*?s.*?c.*?o.*?r.*?d.*?g.*?g.*?)(services|accounts|gold|secure|infern.+)
+(?i).*?cc:\{.*?\}
+(?i).*?ttv\/.*?
+(?i)^.*\[.+\] is a known (scamm|lur)er
+(?i).*?we.*?accept.*?payment.*?methods
 
 (?# Specific adverts)
 (?i)partypetegp
@@ -122,6 +133,8 @@ congratulations.*?with a roll of
 (?i)rúnestore
 (?i)((c.*?a.*?n.*?a.*?d.*?a).*?o.*?s.*?r.*?s.*?g.*?o.*?l.*?d)|(o.*?s.*?r.*?s.*?g.*?o.*?l.*?d.*?c.*?o.*?m)
 (?i)rsfast
+(?i)^.*runebets.*
+(?i)mainscape
 
 (?# Miscellaneous)
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
