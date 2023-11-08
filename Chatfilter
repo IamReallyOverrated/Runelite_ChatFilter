@@ -25,23 +25,20 @@ original host.*?\d+\s?[gkm] min
 \d{2}\s?-\s?100.*?\d+\s?[gkm] min
 \d{2}x\d.*?\d+\s?[gkm] min
 dicing.*?(dice|flower) games?
-has (been paid.*?\d+\s?[gkm]|(lost.*?|won.*?[\[\({]\d+\s?[gkm].*?)with a roll)
 (?i)^.* has cashed in:
 (?i)^.* has been paid:.*
-has (lost|won) \d+\s?[gkm] with a roll of
 hosting.*?\d+\s?[gkm] min
 (huge|massive) payouts?.*?\(\d+\s?[gkm] to \d+\s?[gkm]
 over 5\d .*?\d+\s?[gkm] min.*?(legit|quick plays?)
 random 1-100 .*?win double .*?[\[\({]\d+\s?[gkm]-\d+\s?[gkm][\]\)}]
-rolled [\[\({]\s?\d+\s?[\]\)}].*?[\[\({]\s?(lose|win)\s?[\]\)}]
 big payouts.*?[\[\({]\s?\d+\s?[gkm]\s?-\s?\d+\s?[gkm]\s?[\]\)}]
 original rng is back.*?\(\d+\s?[gkm] to \d+\s?[gkm]
 Auto.*?dice
 Roll.*?over*.?55
 Who.*?just.*?won
 trade.*?accepted.*?with.*?for
-congratulations.*?with a roll of
 ^\d*\s\|
+(?i)(lost|won|congrat(s|ulations)).*?roll.*?\d+
 (?i)coin is up
 (?i)(double )?(dice|dicing) (\bday \b)?(\d+[gkm]-\d+[gkm])\b[gkm]
 (?i)(?=.*games)(?=(.*\{\}.*?){2,})
