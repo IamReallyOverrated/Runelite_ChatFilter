@@ -69,6 +69,13 @@ trade.*?accepted.*?with.*?for
 (?i)se11 g01d & a\(\(.*?1oook\s?\/\s?o\.\d.?u.?s.?d
 (?i)show.*?wealth
 (?i)(buy|buying) (tbow|\wtumeken) \d([mb]|)
+(?i)\d+\s*\%\s+above
+(?i)can\s+pay\s+up\s+to\s+[\d\.]+[mb]
+(?i)to\s+me\s+for\s+[\d\.]+[mb]
+(?i)sell\s+me\s+[\w\s]+for\s+[\d\.]+[mb]\s+quick
+(?i)[\w\s]+wanted[\!\s]+paying\s+
+(?i)all\s+your\s+best\s+item
+(?i)quick\s+transaction
 
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
@@ -122,6 +129,11 @@ trade.*?accepted.*?with.*?for
 (?i).*?ttv\/.*?
 (?i)^.*\[.+\] is a known (scamm|lur)er
 (?i).*?we.*?accept.*?payment.*?methods
+(?i)advertement
+(?i)s[\s\.,]+c[\s\.,]+a[\s\.,]+m
+(?i)s[\s\.,]+a[\s\.,]+f[\s\.,]+e
+(?i)a[\s\.,]+v[\s\.,]+o[\s\.,]+i[\s\.,]+d
+(?i)\$\s*\d+[\,\.]\d+\s+(per\s+)?mil
 
 (?# Specific adverts)
 (?i)partypetegp
