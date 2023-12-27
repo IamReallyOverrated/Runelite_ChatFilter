@@ -69,7 +69,7 @@ trade.*?accepted.*?with.*?for
 (?i)se11 g01d & a\(\(.*?1oook\s?\/\s?o\.\d.?u.?s.?d
 (?i)show.*?wealth
 (?i)(buy|buying) (tbow|\wtumeken) \d([mb]|)
-(?i)\d+\s*\%\s+above
+(?i)\d+\s*\%\s+(above|more)
 (?i)can\s+pay\s+up\s+to\s+[\d\.]+[mb]
 (?i)to\s+me\s+for\s+[\d\.]+[mb]
 (?i)sell\s+me\s+[\w\s]+for\s+[\d\.]+[mb]\s+quick
@@ -94,6 +94,7 @@ trade.*?accepted.*?with.*?for
 (?i)huge give\s?aways?.*?(twitch\/?t?v?|youtube)\s?\/
 (?i)j?o?i?n?.*?\d+\s?(\s?[gkm]|million) give\s?aways?
 (?i)(?=.*?giveaway.*?).*?message.*?enter
+(?i)quitting\s*search\s*[0o]n\s*y[o0]utub[3e]
 
 (?# Promotions and advertisements)
 (?i)(best|come play).*?rsps
