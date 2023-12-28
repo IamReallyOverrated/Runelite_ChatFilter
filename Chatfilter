@@ -69,6 +69,7 @@ trade.*?accepted.*?with.*?for
 (?i)se11 g01d & a\(\(.*?1oook\s?\/\s?o\.\d.?u.?s.?d
 (?i)show.*?wealth
 (?i)(buy|buying) (tbow|\wtumeken) \d([mb]|)
+^.*((someone )?(sell me( your all)?|trade me)?|(anyone|no one) here have|(Looking to )?Buy(in(g)?)?( all)?|what you offer for|big chance to win( a)?) (t(wisted)?( )?bow|dwh|kodai wand|scythe( of vitur)?|ancestral set|(ghrazi )?rapier|dragon( )?hunter (c(ross| )+?bow|lance)|bandos( set)?|arma(dyl)?( set|c(ross|( )?bow)?)?|harmonised orb|sang(uinesti)?( staff)?|dhcb|d(ragon)? (claws(s)?|warhammer)|inquisitor(s)? set( / any pieces)?|(arcane|ely(sian)?|spectral)( spirit shield)?|bank|(valuable|good|expensive)?( )?items|most rares|torva( )?(set|items|parts)?|(volatile|harmoni(s|z)+ed|eldritch)?( orb)?|(thi|3)+rd age( item(s?)?)?)(([?]+| for|sell me one now|i will pay|,)+)? (\d{2,4} *[kmb](il+)?|max (cash|stack|gp)|over ge price|very good offer|paying good)?(!|.|,|\?)?.*$
 
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
