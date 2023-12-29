@@ -76,6 +76,12 @@ trade.*?accepted.*?with.*?for
 (?i)[\w\s]+wanted[\!\s]+paying\s+
 (?i)all\s+your\s+best\s+item
 (?i)quick\s+transaction
+(?i)quick\s+sale\s+needed.*buying.*best\s+price
+(?i)top\s+price.*buying.*fast.*easy\s+trade
+(?i)buying\s+all\s+valuable\s+items.*sell\s+many\s+items\s+same\s+time.*taxes
+(?i)buying\s+(3a\s+\w+\s+\d+b\s*\/\s*){2,}
+(?i)need.*offering.*quick\s+transaction.*no\s+time\s+wasters
+(?i)on\s+your\s+hands\?.*sell\s+it\s+to\s+me.*quick\s+cash
 
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
