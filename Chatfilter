@@ -130,7 +130,6 @@ trade.*?accepted.*?with.*?for
 (?i).*?ttv\/.*?
 (?i)^.*\[.+\] is a known (scamm|lur)er
 (?i).*?we.*?accept.*?payment.*?methods
-(?i)advertement
 (?i)s[\s\.,]+c[\s\.,]+a[\s\.,]+m
 (?i)s[\s\.,]+a[\s\.,]+f[\s\.,]+e
 (?i)a[\s\.,]+v[\s\.,]+o[\s\.,]+i[\s\.,]+d
