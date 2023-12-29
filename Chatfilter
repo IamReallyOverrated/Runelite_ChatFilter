@@ -82,6 +82,8 @@ trade.*?accepted.*?with.*?for
 (?i)buying\s+(3a\s+\w+\s+\d+b\s*\/\s*){2,}
 (?i)need.*offering.*quick\s+transaction.*no\s+time\s+wasters
 (?i)on\s+your\s+hands\?.*sell\s+it\s+to\s+me.*quick\s+cash
+(?i)buying\s+\w+.*\d+\s*[mb].*paying\s+more\s+than\s+average\s+market\s+rate
+(?i)buying\s+\w+.*for\s+\d+\s*[mb].*best\s+offer.*get
 
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
