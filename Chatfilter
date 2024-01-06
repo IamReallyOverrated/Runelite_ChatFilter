@@ -160,6 +160,8 @@ trade.*?accepted.*?with.*?for
 (?i)^.*runebets.*
 (?i)mainscape
 (?i)buygp
+(?i)dmsafe
+(?i)Unwanted( cc|-rs)
 
 (?# Miscellaneous)
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
