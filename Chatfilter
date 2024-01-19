@@ -1,5 +1,5 @@
 (?# Donations and begging)
-(?i)^(can|need) someone (to )?donate
+(?i)(can|need|could|please).*?someone.*?donate
 (?i)^i need (gp|gold|money|items?) ?(please|pl(s|z))
 (?i)(?<!not )\b(accepting|taking)\b( all\b| unwanted\b)?\b(donations?\b|junk\b)
 (?i)any\s(1|one) (spare |help with )((a )?(g(\sp|old)|money|items?|bond)|some junk)
@@ -69,7 +69,6 @@ trade.*?accepted.*?with.*?for
 (?i)se11 g01d & a\(\(.*?1oook\s?\/\s?o\.\d.?u.?s.?d
 (?i)show.*?wealth
 (?i)(buy|buying) (tbow|\wtumeken) \d([mb]|)
-^.*((someone )?(sell me( your all)?|trade me)?|(anyone|no one) here have|(Looking to )?Buy(in(g)?)?( all)?|what you offer for|big chance to win( a)?) (t(wisted)?( )?bow|dwh|kodai wand|scythe( of vitur)?|ancestral set|(ghrazi )?rapier|dragon( )?hunter (c(ross| )+?bow|lance)|bandos( set)?|arma(dyl)?( set|c(ross|( )?bow)?)?|harmonised orb|sang(uinesti)?( staff)?|dhcb|d(ragon)? (claws(s)?|warhammer)|inquisitor(s)? set( / any pieces)?|(arcane|ely(sian)?|spectral)( spirit shield)?|bank|(valuable|good|expensive)?( )?items|most rares|torva( )?(set|items|parts)?|(volatile|harmoni(s|z)+ed|eldritch)?( orb)?|(thi|3)+rd age( item(s?)?)?)(([?]+| for|sell me one now|i will pay|,)+)? (\d{2,4} *[kmb](il+)?|max (cash|stack|gp)|over ge price|very good offer|paying good)?(!|.|,|\?)?.*$
 (?i)\d+\s*\%\s+(above|more)
 (?i)can\s+pay\s+up\s+to\s+[\d\.]+[mb]
 (?i)to\s+me\s+for\s+[\d\.]+[mb]
