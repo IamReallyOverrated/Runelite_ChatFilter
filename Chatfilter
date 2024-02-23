@@ -1,5 +1,5 @@
 (?# Donations and begging)
-(?i)^(can|need) someone (to )?donate
+(?i)(can|need|could|please).*?someone.*?donate
 (?i)^i need (gp|gold|money|items?) ?(please|pl(s|z))
 (?i)(?<!not )\b(accepting|taking)\b( all\b| unwanted\b)?\b(donations?\b|junk\b)
 (?i)any\s(1|one) (spare |help with )((a )?(g(\sp|old)|money|items?|bond)|some junk)
@@ -160,6 +160,8 @@ trade.*?accepted.*?with.*?for
 (?i)^.*runebets.*
 (?i)mainscape
 (?i)buygp
+(?i)dmsafe
+(?i)Unwanted( cc|-rs)
 
 (?# Miscellaneous)
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
