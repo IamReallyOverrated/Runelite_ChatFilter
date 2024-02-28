@@ -134,7 +134,7 @@ trade.*?accepted.*?with.*?for
 (?i)rewarding.*?search (on )?y[o0]utube
 (?i)search\syoutube(?:)
 (?i)first\s\d*\splayers
-(?i)(d.*s.*c.*r.*d.*g.*g).*?(services|accounts|gold|secure|(infern)|gambling|stak(es|ing)|weekly|invite|affiliate|cape)
+(?i)(.*d.*?i.*?s.*?c.*?o.*?r.*?d.*?g.*?g.*?)(services|accounts|gold|secure|infern.+)
 (?i).*?cc:\{.*?\}
 (?i).*?ttv\/.*?
 (?i)^.*\[.+\] is a known (scamm|lur)er
@@ -152,7 +152,6 @@ trade.*?accepted.*?with.*?for
 (?i)'C0M
 (?i)ms99gp
 (?i)Zo55gp
-(?i)runewagers
 (?i)rscoins
 (?i)runemarket
 (?i)rúnestore
