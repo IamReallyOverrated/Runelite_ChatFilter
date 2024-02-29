@@ -85,6 +85,32 @@ trade.*?accepted.*?with.*?for
 (?i)buying\s+\w+.*\d+\s*[mb].*paying\s+more\s+than\s+average\s+market\s+rate
 (?i)buying\s+\w+.*for\s+\d+\s*[mb].*best\s+offer.*get
 
+(?# Buying specific items)
+(?# Armour sets)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?(masori|torva|bandos|arma(dyl)?|anc(estral)?|inquis(itor(s)?))\s?(set|items|parts|plate\s(body|legs|)?|helm|hat|(any\s)?p(ie|ea)ces)?\s?((i\swill\spay|,)?([\d.]+{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(#? Kodai wand)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?(kodai(\s?wand)?)\s?((i\swill\spay|,)?([\d.]+{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# Scythe)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?(scythe(\s?of\s?vitur)?)\s?((i\swill\spay|,)?([\d.]+{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# Rapier)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?((ghrazi\s?)?rapier)\s?((i\swill\spay|,)?([\d.]+{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# DHL/DHCB)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?(d(ragon\s?)?h(unter)?\s?(c(ross|\s)?b(ow)?|l(ance)?))\s?((i\swill\spay|,)?([\d.]+{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# ACB/ZCB)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?((a(rma(dyl)?)?|z(aryte)?)\s?(c((ross)?\s?b(ow)?)?))\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# Sang Staff)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?(sang(uinesti)?\s?(staff)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# Dragon items)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?(d(ragon)?\s?(claws(s)?|w(ar)?h(ammer)?))\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# Spirit Shields)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?((arcane|ely(sian)?|spectral)\s?(spirit\s?shield)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# Nightmare orbs/staffs)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?((volatile|harm(oni(s|z)+ed)?|eldritch)?\s?(orb|staff)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# Third age items)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?((thi|3)+rd\s?age\s?(item(s?)?)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+(?# Voidwaker)
+(?i)(buy(in(g)?)?(\s+all)?)\s+?(voidwaker\s?(blade|hilt|gem)?)\s?((i\swill\spay|,)?([\d\.]{2,}[kmb](il)?|max\s?(cash|stack|gp)))?
+
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
 (?i)quitting.*?\d{2} percent of what you show
