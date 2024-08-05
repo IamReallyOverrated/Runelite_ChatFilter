@@ -192,6 +192,7 @@ trade.*?accepted.*?with.*?for
 (?i)Runewager(s)?
 (?i)Infernalmarket
 (?i)\bpeng(r)?(s)?\b
+(?i)\b(i|l)nferno(-| ?)cape C ?(O|0) ?M\b
 
 (?# Miscellaneous)
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
