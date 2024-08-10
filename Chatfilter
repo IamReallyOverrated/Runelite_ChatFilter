@@ -172,11 +172,11 @@ trade.*?accepted.*?with.*?for
 (?i)(\$\s*\d+)?[\,\.]\d+\s+(per\s+)?mil
 
 (?# Specific adverts)
-(?i).*?discord\.gg.*?gold
-(?i).*?discord\.gg.*?customers
-(?i).*?discord\.gg.*?reviews
-(?i).*?rsgoods
-(?i).*banrate
+(?i).*?discord\.gg.*?gold.*
+(?i).*?discord\.gg.*?customers.*
+(?i).*?discord\.gg.*?reviews.*
+(?i).*?rsgoods.*
+(?i).*banrate.*
 (?i)partypetegp
 (?i)infernocape.com
 (?i)'C0M
