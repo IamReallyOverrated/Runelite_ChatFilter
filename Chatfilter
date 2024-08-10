@@ -8,7 +8,6 @@
 (?i)(could|can|might) use (some )?help with (a )?bond
 (?i)i just got (scammed|hacked) (and lost |please help |can anyone help ).*
 (?i)need free (g(\sp|old)|money|items?)
-(?i)please need \d+\s?[gkm]( i'?m new)?
 
 (?# Gambling and begging)
 (?i)want to bet.*? (gold|gp|coins|money)
@@ -197,6 +196,7 @@ trade.*?accepted.*?with.*?for
 (?i)Infernalmarket
 (?i)\bpeng(r)?(s)?\b
 
+(?i)warning.*?is.*?a.*?hacker.*?do.*?not.*?add.*?him
 (?i).*?will.*?try.*?send.*?you.*?virus.*?over.*?discord
 
 (?# Miscellaneous)
