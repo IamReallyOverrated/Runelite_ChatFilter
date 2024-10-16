@@ -176,8 +176,8 @@ trade.*?accepted.*?with.*?for
 (?i).*?discord\.gg.*?reviews.*
 (?i).*?discord\.gg.*?torva.*
 (?i).*?discord\.gg.*?Gold.*
-(?i).*?discord\.gg.*?C H E A P.*
-(?i).*?discord\.gg.*?cheapest.*
+(?i).*?discord\.gg.*?*C\s*H\s*E\s*A\s*P\s*.*
+(?i).*?discord\.gg.*?cheap.*
 (?i).*?07market.*
 (?i).*?rsgoods.*
 (?i).*banrate.*
