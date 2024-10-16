@@ -178,6 +178,7 @@ trade.*?accepted.*?with.*?for
 (?i).*?discord\.gg.*?Gold.*
 (?i).*?discord\.gg.*?*C\s*H\s*E\s*A\s*P\s*.*
 (?i).*?discord\.gg.*?cheap.*
+(?i).*?discord\.gg.*?payment.*
 (?i).*?07market.*
 (?i).*?rsgoods.*
 (?i).*banrate.*
