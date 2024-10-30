@@ -196,10 +196,16 @@ trade.*?accepted.*?with.*?for
 (?i)mainscape
 (?i)buygp
 (?i)dmsafe
+(?i)runecash
+(?i)runegold
+(?i)runecino
 (?i)Unwanted( cc|-rs)
 (?i)Runewager(s)?
 (?i)Infernalmarket
+(?i)instagp
 (?i)\bpeng(r)?(s)?\b
+(?i)\b(i|l)nferno(-| ?)cape C ?(O|0) ?M\b
+(?i)(i|l)ceart(00|OO)7
 (?i)rushgp
 
 (?i)warning.*?is.*?a.*?hacker.*?do.*?not.*?add.*?him
