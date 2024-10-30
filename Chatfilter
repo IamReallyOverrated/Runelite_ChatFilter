@@ -8,7 +8,6 @@
 (?i)(could|can|might) use (some )?help with (a )?bond
 (?i)i just got (scammed|hacked) (and lost |please help |can anyone help ).*
 (?i)need free (g(\sp|old)|money|items?)
-(?i)please need \d+\s?[gkm]( i'?m new)?
 
 (?# Gambling and begging)
 (?i)want to bet.*? (gold|gp|coins|money)
@@ -172,6 +171,17 @@ trade.*?accepted.*?with.*?for
 (?i)(\$\s*\d+)?[\,\.]\d+\s+(per\s+)?mil
 
 (?# Specific adverts)
+(?i).*?discord\.gg.*?gold.*
+(?i).*?discord\.gg.*?customers.*
+(?i).*?discord\.gg.*?reviews.*
+(?i).*?discord\.gg.*?torva.*
+(?i).*?discord\.gg.*?Gold.*
+(?i).*?discord\.gg.*?*C\s*H\s*E\s*A\s*P\s*.*
+(?i).*?discord\.gg.*?cheap.*
+(?i).*?discord\.gg.*?payment.*
+(?i).*?07market.*
+(?i).*?rsgoods.*
+(?i).*banrate.*
 (?i)partypetegp
 (?i)infernocape.com
 (?i)'C0M
@@ -191,6 +201,10 @@ trade.*?accepted.*?with.*?for
 (?i)Infernalmarket
 (?i)\bpeng(r)?(s)?\b
 (?i)rushgp
+
+(?i)warning.*?is.*?a.*?hacker.*?do.*?not.*?add.*?him
+(?i).*?will.*?try.*?send.*?you.*?virus.*?over.*?discord
+(?i)per.*?vote.*?offer!
 
 (?# Miscellaneous)
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
