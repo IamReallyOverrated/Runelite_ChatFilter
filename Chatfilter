@@ -59,6 +59,8 @@ trade.*?accepted.*?with.*?for
 (?i)doubling gp or items \d+\s?[gkm] left
 (?i)i do (1|one) trade (doubl|tripl)(e|ing)
 (?i)i'?ll (doubl|tripl)e your \d+\s?[gkm]
+(?i)report (scammers|lurers)
+(?i)beware of (scammers|lurers)
 
 (?# Trading and selling)
 (?i)^trading up .*?
