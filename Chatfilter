@@ -59,6 +59,8 @@ trade.*?accepted.*?with.*?for
 (?i)doubling gp or items \d+\s?[gkm] left
 (?i)i do (1|one) trade (doubl|tripl)(e|ing)
 (?i)i'?ll (doubl|tripl)e your \d+\s?[gkm]
+(?i)report (scammers|lurers)
+(?i)beware of (scammers|lurers)
 
 (?# Trading and selling)
 (?i)^trading up .*?
@@ -184,6 +186,7 @@ trade.*?accepted.*?with.*?for
 (?i)\b(i|l)nferno(-| ?)cape C ?(O|0) ?M\b
 (?i)(i|l)ceart(00|OO)7
 (?i)rushgp
+(?i)safegp
 
 (?i)warning.*?is.*?a.*?hacker.*?do.*?not.*?add.*?him
 (?i).*?will.*?try.*?send.*?you.*?virus.*?over.*?discord
