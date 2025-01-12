@@ -197,6 +197,9 @@ trade.*?accepted.*?with.*?for
 (?i)per.*?vote.*?offer!
 
 (?# Miscellaneous)
+(?i)your seers' village
+(?i)you climb up the wall
+(?i)and grab hold of
 (?i)s\s*e\s*l\s*l\s*r\s*s\s*0\s*7
 (?i)[0-9\.](.*?\/.*?)?u\ss\sd\s?\/\s?m
 \d\d:\d\d:\d\d
