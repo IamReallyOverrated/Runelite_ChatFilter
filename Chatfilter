@@ -188,6 +188,9 @@ trade.*?accepted.*?with.*?for
 (?i)rushgp
 (?i)safegp
 (?i)rapidgp
+(?i)zoomgp
+(?i)ultragp
+(?i)Discord··gg
 
 (?i)warning.*?is.*?a.*?hacker.*?do.*?not.*?add.*?him
 (?i).*?will.*?try.*?send.*?you.*?virus.*?over.*?discord
@@ -206,4 +209,4 @@ trade.*?accepted.*?with.*?for
 [âêîôûÂÊÎÔÛ]
 [ãñõÃÑØøÕ]
 [äëïöüÿÄËÏÖÜŸ]
-[ÐæÆœŒçÇß«»°]
+[ÐæÆœŒçÇß«»°·]
