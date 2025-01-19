@@ -187,6 +187,7 @@ trade.*?accepted.*?with.*?for
 (?i)(i|l)ceart(00|OO)7
 (?i)rushgp
 (?i)safegp
+(?i)rapidgp
 (?i)zoomgp
 (?i)ultragp
 (?i)Discord··gg
