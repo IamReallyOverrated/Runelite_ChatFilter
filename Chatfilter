@@ -8,6 +8,8 @@
 (?i)(could|can|might) use (some )?help with (a )?bond
 (?i)i just got (scammed|hacked) (and lost |please help |can anyone help ).*
 (?i)need free (g(\sp|old)|money|items?)
+(?i).*(any|some)one give me \d+[gkmb]
+(?i).*pl(z)+.*?give? me? \d+[gkmb]
 
 (?# Gambling and begging)
 (?i)want to bet.*? (gold|gp|coins|money)
@@ -48,8 +50,6 @@ trade.*?accepted.*?with.*?for
 (?i)(?=(\d+[gkmb].*?\d+[gkmb])).*?\[\].*?
 (?i).*?\{\}.*?casino
 (?i).*?\{\}.*?(\d+[gkmb].*?\d+[gkmb])
-(?i).*(any|some)one give me \d+[gkmb]
-(?i).*pl(z)+.*?give? me? \d+[gkmb]
 
 (?# Doubling money and scams)
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
@@ -92,7 +92,6 @@ trade.*?accepted.*?with.*?for
 (?i)buying\s+\w+.*for\s+\d+\s*[mb].*best\s+offer.*get
 
 (?# Buying specific items) (WIP)
-
 
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
