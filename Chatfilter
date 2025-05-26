@@ -1,6 +1,6 @@
 (?# Donations and begging)
 (?i)(can|need|could|please)?.*?(someone|anyone).*?donate
-(?i)^i need (gp|gold|money|items?) ?(please|pl(s|z))
+(?i)^(i )?need (gp|gold|money|items?) ?(please|pl(s|z)+)
 (?i)(?<!not )\b(accepting|taking)\b( all\b| unwanted\b)?\b(donations?\b|junk\b)
 (?i)any\s(1|one) (spare |help with )((a )?(g(\sp|old)|money|items?|bond)|some junk)
 (?i)can anyone.*?donate me (g(\sp|old)|money|items?)
