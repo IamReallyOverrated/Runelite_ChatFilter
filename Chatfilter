@@ -48,6 +48,8 @@ trade.*?accepted.*?with.*?for
 (?i)(?=(\d+[gkmb].*?\d+[gkmb])).*?\[\].*?
 (?i).*?\{\}.*?casino
 (?i).*?\{\}.*?(\d+[gkmb].*?\d+[gkmb])
+(?i).*(any|some)one give me \d+[gkmb]
+(?i).*pl(z)+.*?give? me? \d+[gkmb]
 
 (?# Doubling money and scams)
 (?i)^(doubl|tripl)ing\s?(g(\s?p|old)|money|items?)?$
