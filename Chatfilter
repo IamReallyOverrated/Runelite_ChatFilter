@@ -89,6 +89,8 @@ trade.*?accepted.*?with.*?for
 (?i)buying\s+\w+.*for\s+\d+\s*[mb].*best\s+offer.*get
 
 (?# Buying specific items) (WIP)
+(?i)(buy|sell)(ing)? (ely|tumenken|tumeken('s)?|shadow|scythe|vitur|tbow|twisted bow).*\d+[gkmb]
+(?i)(buy|sell)(ing)? (burnt|crushed|fossilized|unwanted|unneeded)?(gems|food|rubble|dung)
 
 
 (?# Giveaways and events)
