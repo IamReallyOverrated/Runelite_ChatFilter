@@ -151,7 +151,7 @@ trade.*?accepted.*?with.*?for
 (?i)s[\s\.,]+a[\s\.,]+f[\s\.,]+e
 (?i)a[\s\.,]+v[\s\.,]+o[\s\.,]+i[\s\.,]+d
 (?i)(\$\s*\d+)?[\,\.]\d+\s+(per\s+)?mil
-(?i)actually( super)? clean and( super)? (active|rewarding|fun)$
+(?i).*actually( super)? clean and( super)? (active|rewarding|fun)$
 
 (?# Specific adverts)
 (?i).*?discord\.gg.*?gold.*
