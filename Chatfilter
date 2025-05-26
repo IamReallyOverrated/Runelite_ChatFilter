@@ -9,7 +9,7 @@
 (?i)i just got (scammed|hacked) (and lost |please help |can anyone help ).*
 (?i)need free (g(\sp|old)|money|items?)
 (?i).*(any|some)one give me \d+[gkmb]
-(?i).*pl(z)+.*?give? me? \d+[gkmb]
+(?i).*pl(ease|(z)+).*?give? me? \d+[gkmb]
 
 (?# Gambling and begging)
 (?i)want to bet.*? (gold|gp|coins|money)
