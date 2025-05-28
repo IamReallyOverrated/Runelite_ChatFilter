@@ -153,6 +153,8 @@ trade.*?accepted.*?with.*?for
 (?i)(\$\s*\d+)?[\,\.]\d+\s+(per\s+)?mil
 (?i).*actually( super)? clean and( super)? (active|rewarding|fun)
 
+(?# (?i)[(odascape| )]  )
+
 (?# Specific adverts)
 (?i).*?discord\.gg.*?gold.*
 (?i).*?discord\.gg.*?customers.*
@@ -166,7 +168,7 @@ trade.*?accepted.*?with.*?for
 (?i).*?rsgoods.*
 (?i).*banrate.*
 (?i)partypetegp
-(?i)infernocape.com
+(?i)inferno(-| ?)cape.com
 (?i)'C0M
 (?i)ms99gp
 (?i)Zo55gp
@@ -177,15 +179,15 @@ trade.*?accepted.*?with.*?for
 (?i)rsfast
 (?i)^.*runebets.*
 (?i)mainscape
-(?i)odascape
+(?i)oda(-| ?)scape
 (?i)buygp
 (?i)dmsafe
 (?i)runecash
 (?i)runegold
 (?i)runecino
 (?i)Unwanted( cc|-rs)
-(?i)Runewager(s)?
-(?i)Infernalmarket
+(?i)Rune(-| ?)wager(s)?
+(?i)Infernal(-| ?)market
 (?i)instagp
 (?i)\bpeng(r)?(s)?\b
 (?i)\b(i|l)nferno(-| ?)cape C ?(O|0) ?M\b
@@ -195,12 +197,12 @@ trade.*?accepted.*?with.*?for
 (?i)rapidgp
 (?i)zoomgp
 (?i)ultragp
-(?i)Discord··gg
+(?i)Discord(-| ?)gg
 (?i)legacygp
 (?i)Luxosgp
 (?i)arenagp
-(?i)pengservices
-(?i)infernalgg
+(?i)peng(-| ?)services
+(?i)infernal(-?)gg
 
 (?i)warning.*?is.*?a.*?hacker.*?do.*?not.*?add.*?him
 (?i).*?will.*?try.*?send.*?you.*?virus.*?over.*?discord
