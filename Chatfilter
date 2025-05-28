@@ -153,8 +153,6 @@ trade.*?accepted.*?with.*?for
 (?i)(\$\s*\d+)?[\,\.]\d+\s+(per\s+)?mil
 (?i).*actually( super)? clean and( super)? (active|rewarding|fun)
 
-(?# (?i)[(odascape| )]  )
-
 (?# Specific adverts)
 (?i).*?discord\.gg.*?gold.*
 (?i).*?discord\.gg.*?customers.*
