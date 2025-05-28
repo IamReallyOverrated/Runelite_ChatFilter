@@ -90,7 +90,7 @@ trade.*?accepted.*?with.*?for
 
 (?# Buying specific items) (WIP)
 (?i)(buy|sell)(ing)?.*?(ely|tumenken|tumeken('s)?|shadow|scythe|vitur|tbow|twisted bow).*\d+[gkmb]
-(?i)(buy|sell)(ing)?.*?(burnt|burned|burning|crushed|fossilized|unwanted|unneeded) *?(gems|food|rubble|dung)
+(?i)(buy|sell)(ing)?.*?(burnt|burned|burning|crushed|fossilized|unwanted|unneeded|broken) *?(gems|food|rubble|dung)
 
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
