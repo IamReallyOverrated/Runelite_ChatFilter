@@ -91,6 +91,8 @@ trade.*?accepted.*?with.*?for
 (?i)buying\s+\w+.*for\s+\d+\s*[mb].*best\s+offer.*get
 
 (?# Buying specific items) (WIP)
+(?i)^(buy|sell)(ing)?[\w ]+(tumeken(s?)|tumenken['s]?|ely|shadow(s?)|scythe(s?)|vitur|tbow(s?)|twisted bow(s?)|inquis|inquisitor(s|'s)?|sigil(s?))+($|\W+?.*?(\d+[gkmb]|\d{2,}|mill|bill))
+### (?i)^(buy|sell)(ing)?.*?(burnt|burned|burning|crushed|fossilized|unwanted|unneeded|broken) *?(gems|food|rubble|dung)
 
 (?# Giveaways and events)
 (?i)quitting? .*? giving \d+ percent.*? (1|one) trade
